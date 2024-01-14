@@ -1,0 +1,64 @@
+body {
+    background: #B8F2FF;
+    font-family: 'Inria Serif', serif;
+}
+
+.blurb h2 {
+    color: #243851;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #597A8D;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: #243851;
+    font-size: 1rem;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #E0B01F;
+}
+
+#mainNavbar .navbar-brand {
+    color: #E0B01F;
+}
+
+#headingGroup {
+    color: #243851;
+}
+
+#headingGroup span {
+    color: #E0B01F;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: #597a8d80;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
